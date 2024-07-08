@@ -7,24 +7,7 @@ body {
 }
 
 header {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 1rem;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+    margin-bottom: 1rem;
 }
 
 main {
@@ -41,7 +24,6 @@ main {
     border: 1px solid #000000;
     padding: 1rem;
     margin: 1rem;
-    width: calc(25% - 2rem);
     box-sizing: border-box;
 }
 
