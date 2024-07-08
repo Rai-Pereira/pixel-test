@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #000000;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc(25% - 2rem);
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.login {
+    max-width: 300px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label, .login input, .login button {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#empty-cart img {
+    max-width: 100%;
+}

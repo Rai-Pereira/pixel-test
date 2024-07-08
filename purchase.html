@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.js">
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="register.html">Cadastrar</a></li>
+                <li><a href="purchase.html">Compra</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Seu Carrinho</h2>
+        <div id="cart-container">
+            <ul id="cart-items" class="list-group">
+                <!-- Items will be added here dynamically -->
+            </ul>
+        </div>
+        <button onclick="checkout()" class="btn btn-success mt-3">Finalizar Compra</button>
+        <div id="checkout-message" class="alert alert-success d-none mt-3" role="alert">
+            Compra finalizada com sucesso!
+        </div>
+        <div id="empty-message" class="alert alert-warning d-none mt-3" role="alert">
+            Adicione um item para finalizar a compra.
+        </div>
+        <div id="empty-cart" class="d-none mt-3 text-center">
+            <img src="assets/empty-bag.png" alt="Sacola Vazia" width="200">
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
